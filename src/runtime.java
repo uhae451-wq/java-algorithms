@@ -44,7 +44,7 @@ public class runtime {
         System.out.println("bye");
 
 
-        // O(log n)
+        // O(n log n)
         // 아래코드는 n이 1000이라면 while문에 조건은 배가 되기 때문에
         // 1 2 4 8 16 32 64 128 256 512 -> 10번 반복된다.
         // n이 들어와도 실제로 안에 while문은 한참 적은 수만큼 반복이 되는것이다.
