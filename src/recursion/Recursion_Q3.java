@@ -3,7 +3,7 @@ package recursion;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Recursiont_Q3 {
+public class Recursion_Q3 {
     public static void main(String[] args) {
         /*
         * 주어진 배열에서 만들수있는 모든 조합을 구하시오.
