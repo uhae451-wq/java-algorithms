@@ -5,8 +5,8 @@ public class Recursion_Q1   {
         /*
          * 배열이 주어졋을때 n개의 조합으로 새 배열을 만들어 반환하기.
          * */
-        int[] arr = {2, 4, 6, 8, 10};
-        int m = 3;
+        int[] arr = {1,1,2, 4, 6, 8, 10};
+        int m = 5;
         List<List<Integer>> qwe = new ArrayList<>(solution(arr,m,new ArrayList<>(),new ArrayList<>()));
         for (List<Integer> integers : qwe) {
             System.out.println(integers);
