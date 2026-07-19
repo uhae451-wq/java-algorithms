@@ -42,12 +42,13 @@ src/
 
 ## 재귀 & 백트래킹
 
-| 문제 | 핵심 개념 | 링크 |
-|---|---|---|
-| 배열 조합 (m개 선택) | 백트래킹, start 파라미터 | [코드](src/recursion/Recursion_Q1.java) |
-| 순열 만들기 | used 배열, 백트래킹 | [코드](src/recursion/Recursion_Q2.java) |
+| 문제 | 핵심 개념 | 링크                                     |
+|---|---|----------------------------------------|
+| 배열 조합 (m개 선택) | 백트래킹, start 파라미터 | [코드](src/recursion/Recursion_Q1.java)  |
+| 순열 만들기 | used 배열, 백트래킹 | [코드](src/recursion/Recursion_Q2.java)  |
 | 계단 오르기 경로 찾기 | 재귀, 가지치기 | [코드](src/recursion/Recursiont_Q3.java) |
-| 예산 내 최대 방문 국가 수 | 순열, 반환값 기반 재귀 | [코드](src/recursion/Recursion_Q4.java) |
+| 예산 내 최대 방문 국가 수 | 순열, 반환값 기반 재귀 | [코드](src/recursion/Recursion_Q4.java)  |
+| 계단 오르는 조합 구하기 | 재귀, 가지치기 | [코드](src/recursion/Recursion_Q5.java)  |
 
 ## 자료구조
 
@@ -77,7 +78,8 @@ src/
 
 ## 회고
 
-### 2026.07 - 재귀함수
+### 2026.07.20 - 재귀함수
 - `return`은 함수 호출 "하나"만 끝내는 것이지, 전체 흐름을 멈추는 게 아니라는 걸 디버깅하며 체감함
 - `add` vs `addAll`: 낱개 원소를 넣을 때와 다른 리스트를 통째로 풀어서 합칠 때를 구분해서 써야 한다는 것
 - 백트래킹 = "선택 → 재귀 진입 → 되돌리기"의 반복이라는 패턴을 이해함
+- 얕은 복사 문제: `result.add(selected)`가 아니라 `result.add(new ArrayList<>(selected))`로 복사본을 넣어야 나중에 값이 오염되지 않는다는 것
