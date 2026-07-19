@@ -1,11 +1,11 @@
-import java.util.Arrays;
+package search;
 
-public class SortingTwoPointer_Q1 {
+public class BruteForce_Q1 {
     public static void main(String[] args) {
         /*
-         * 배열이 주어지고 두 합이 target과 일치하는 경우의 수 구하기
-         * 조건 : 배열길이는 10^5 미만 , 각 배열의 값은 1이상 10^9이하 , target은 2이상 10^9이하, 같은 배열값 중복없음. 중복값 선택 X
-         * */
+        * 배열이 주어지고 두 합이 target과 일치하는 경우의 수 구하기
+        * 조건 : 배열길이는 10^5 미만 , 각 배열의 값은 1이상 10^9이하 , target은 2이상 10^9이하, 같은 배열값 중복없음. 중복값 선택 X
+        * */
         int count01 = solution(new int[]{2, 7, 11, 15},9);
         int count02 = solution(new int[]{3, 8, 12, 17, 20},25);
         int count03 = solution(new int[]{4, 6, 10, 15, 21},1);
@@ -20,22 +20,15 @@ public class SortingTwoPointer_Q1 {
 
     }
 
-    public static int solution(int[]prices, int target){
+    public static int solution(int[] prices, int target){
         int count = 0;
-        Arrays.sort(prices);
-        int f = 0;
-        int e = prices.length-1;
-        while (f < e){
-            if(prices[f] + prices[e] < target){
-                f++;
-            }else if(prices[f] + prices[e] > target){
-                e--;
-            }else {
-                count++;
-                f++;
+        for(int i=0; i<prices.length; i++){
+            for(int j= i+1; j< prices.length; j++){
+                if(prices[i]+prices[j] == target){
+                    count++;
+                }
             }
         }
-
         return count;
     }
 }

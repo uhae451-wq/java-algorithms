@@ -1,6 +1,7 @@
+package datastructure.stack;
+
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.Set;
 
 public class Stack_Q1 {
     public static void main(String[] args) {
