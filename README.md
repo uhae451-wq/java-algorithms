@@ -30,7 +30,7 @@ src/
 |---|---|---|
 | 배열 조합 (m개 선택) | 백트래킹, start 파라미터 | [코드](src/recursion/Recursion_Q1.java) |
 | 순열 만들기 | used 배열, 백트래킹 | [코드](src/recursion/Recursion_Q2.java) |
-| 계단 오르기 경로 찾기 | 재귀, 가지치기 | [코드](src/recursion/Recursiont_Q3.java) |
+| 계단 오르기 경로 찾기 | 재귀, 가지치기 | [코드](src/recursion/Recursion_Q3.java) |
 | 예산 내 최대 방문 국가 수 | 순열, 반환값 기반 재귀 | [코드](src/recursion/Recursion_Q4.java) |
 
 ## 완전탐색
@@ -43,13 +43,13 @@ src/
 
 ## 재귀 & 백트래킹
 
-| 문제 | 핵심 개념 | 링크                                     |
-|---|---|----------------------------------------|
-| 배열 조합 (m개 선택) | 백트래킹, start 파라미터 | [코드](src/recursion/Recursion_Q1.java)  |
-| 순열 만들기 | used 배열, 백트래킹 | [코드](src/recursion/Recursion_Q2.java)  |
-| 계단 오르기 경로 찾기 | 재귀, 가지치기 | [코드](src/recursion/Recursiont_Q3.java) |
-| 예산 내 최대 방문 국가 수 | 순열, 반환값 기반 재귀 | [코드](src/recursion/Recursion_Q4.java)  |
-| 계단 오르는 조합 구하기 | 재귀, 가지치기 | [코드](src/recursion/Recursion_Q5.java)  |
+| 문제 | 핵심 개념 | 링크                                    |
+|---|---|---------------------------------------|
+| 배열 조합 (m개 선택) | 백트래킹, start 파라미터 | [코드](src/recursion/Recursion_Q1.java) |
+| 순열 만들기 | used 배열, 백트래킹 | [코드](src/recursion/Recursion_Q2.java) |
+| 계단 오르기 경로 찾기 | 재귀, 가지치기 | [코드](src/recursion/Recursion_Q3.java) |
+| 예산 내 최대 방문 국가 수 | 순열, 반환값 기반 재귀 | [코드](src/recursion/Recursion_Q4.java) |
+| 계단 오르는 조합 구하기 | 재귀, 가지치기 | [코드](src/recursion/Recursion_Q5.java) |
 
 ## 그래프
 
@@ -58,7 +58,7 @@ src/
 | BFS_샘플           | BFS   | [코드](src/graph/BFS_sample.java)        |
 | DFS_샘플           | DFS   | [코드](src/graph/DFS_sample.java)        |
 | 간선리스트를 인접리스트로 변환 | GRAPH | [코드](src/graph/EdgeListToAdjList.java) |
-| 서로 연결된 네트워크 찾기   | DFS   | [코드](src/graph/NetworkAnayzer.java)    |
+| 서로 연결된 네트워크 찾기   | DFS   | [코드](src/graph/NetworkAnalyzer.java)    |
 
 ## 자료구조
 
