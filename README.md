@@ -53,11 +53,12 @@ src/
 
 ## 그래프
 
-| 문제     | 핵심 개념 | 링크                              |
-|--------|-------|---------------------------------|
-| BFS_샘플 | BFS   | [코드](src/graph/BFS_sample.java) |
-| DFS_샘플 | BFS   | [코드](src/graph/DFS_sample.java) |
-| 간선리스트를 인접리스트로 변환 | GRAPH | [코드](src/graph/EdgeListToAdjList.java)|
+| 문제               | 핵심 개념 | 링크                                     |
+|------------------|-------|----------------------------------------|
+| BFS_샘플           | BFS   | [코드](src/graph/BFS_sample.java)        |
+| DFS_샘플           | DFS   | [코드](src/graph/DFS_sample.java)        |
+| 간선리스트를 인접리스트로 변환 | GRAPH | [코드](src/graph/EdgeListToAdjList.java) |
+| 서로 연결된 네트워크 찾기   | DFS   | [코드](src/graph/NetworkAnayzer.java)    |
 
 ## 자료구조
 
