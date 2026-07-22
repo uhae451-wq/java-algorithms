@@ -61,6 +61,7 @@ src/
 | 서로 연결된 네트워크 찾기   | DFS      | [코드](src/graph/NetworkAnalyzer.java)   |
 | 잠긴 락커 찾기         | DFS, BFS | [코드](src/graph/Rocker.java)            |
 | 청팀 홍팀 이분그래프      | DFS, BFS | [코드](src/graph/Bipartite.java)         |
+| 잔돈 구하기           | BFS | [코드](src/graph/AmountCoin.java)        |
 
 ## 자료구조
 
