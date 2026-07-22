@@ -58,8 +58,9 @@ src/
 | BFS_샘플           | BFS      | [코드](src/graph/BFS_sample.java)        |
 | DFS_샘플           | DFS      | [코드](src/graph/DFS_sample.java)        |
 | 간선리스트를 인접리스트로 변환 | GRAPH    | [코드](src/graph/EdgeListToAdjList.java) |
-| 서로 연결된 네트워크 찾기   | DFS      | [코드](src/graph/NetworkAnalyzer.java)    |
-| 잠긴 락커 찾기         | DFS, BFS | [코드](src/graph/Rocker.java)    |
+| 서로 연결된 네트워크 찾기   | DFS      | [코드](src/graph/NetworkAnalyzer.java)   |
+| 잠긴 락커 찾기         | DFS, BFS | [코드](src/graph/Rocker.java)            |
+| 청팀 홍팀 이분그래프      | DFS, BFS | [코드](src/graph/Bipartite.java)         |
 
 ## 자료구조
 
@@ -100,3 +101,7 @@ src/
  DFS를 배웠다.
 - BFS가 시작점을 중심으로 원이 퍼지듯 탐색했다면, DFS는 미로에서 "일단 이 길로 갈 수 있는 데까지 가보고, 막히면 갈림길로 돌아온다"는 느낌에 가깝다.
 - 입력값으로 간선리스트가 주어졌을때, 활용하기 좋은 인접 리스트로 변환하는 것이 좋다.
+
+### 2026.07.22 - BFS , DFS 이분그래프
+- 처음에는 DFS/BFS로 팀을 어떻게 나눠야 하는지 감이 오지 않았지만, 현재 정점의 반대 팀을 친구에게 배정하는 원리를 이해하면서 해결할 수 있었다.
+- DFS를 구현한 뒤 같은 로직을 BFS에도 적용해 보면서 두 탐색 방식은 다르지만 핵심 로직은 동일하다는 점을 배웠다.
