@@ -2,7 +2,7 @@ package grid;
 
 import java.util.*;
 
-public class grid_sample {
+public class Grid_sample {
     public static void main(String[] args) {
         int[][] grid = new int[][]{};
         grid = new int[][]{
