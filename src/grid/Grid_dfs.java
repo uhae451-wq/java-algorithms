@@ -1,9 +1,9 @@
 package grid;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class grid_dfs {
+public class Grid_dfs {
+    /*
+    * 그리드 상에서 지정된 시작점에서 타겟 지점까지 도달(연결)이 가능한지 여부 확인 dfs
+    * */
     public static void main(String[] args) {
         int[][] grid = new int[][]{};
         grid = new int[][]{
