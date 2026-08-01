@@ -67,12 +67,12 @@ src/
 
 ## 그리드
 
-| 문제                  | 핵심 개념 | 링크                                     |
-|---------------------|-------|----------------------------------------|
-| 그리드_샘플              | BFS   | [코드](src/grid/grid_sample.java)        |
-| 경로 도착 여부            | DFS   | [코드](src/grid/grid_dfs.java)           |
-| 연결된 네트워크 수와 리스트 구하기 | BFS   | [코드](src/grid/Grid_network_count.java) |
-| 구름갯수 구하기            | BFS   | [코드](src/grid/CloudCount.java)         |
+| 문제                               | 핵심 개념 | 링크                                     |
+|------------------------------------|-----------|------------------------------------------|
+| 그리드_샘플                        | BFS       | [코드](src/grid/Grid_sample.java)        |
+| 경로 도착 여부                     | DFS       | [코드](src/grid/Grid_dfs.java)           |
+| 연결된 네트워크 수와 리스트 구하기 | BFS       | [코드](src/grid/Grid_network_count.java) |
+| 구름갯수 구하기                    | BFS       | [코드](src/grid/CloudCount.java)         |
 
 
 ## 자료구조

@@ -22,9 +22,28 @@ public class CloudCount {
     static int solution(int[][]grid){
         int n = grid.length;
         int m = grid[0].length;
+        int[] dr = {-1, 0 ,1, 0};
+        int[] dc = {0, 1, 0, -1};
+        boolean[][] visited = new boolean[n][m];
+        int count = 0;
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                if(grid[i][j] == 1 && !visited[i][j]){
+                    count++;
+                }
+            }
+        }
+        return 0;
+    }
+
+    static int dfs(int[][]grid, int n, int m, int[] dr, int[] dc,int[][] visited){
 
         return 0;
     }
+
+
+
+
 
 
     static int bfs(int[][] grid){
